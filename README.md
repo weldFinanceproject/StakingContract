@@ -41,7 +41,7 @@ Copy code
 function withdraw(uint256 amount) public {
     require(amount <= _balances[msg.sender], "Cannot withdraw more than the current staking balance");
 
-    // Update staking balance
+   
     _balances[msg.sender] -= amount;
 
     // Transfer staking tokens back to staker
