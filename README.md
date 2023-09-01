@@ -26,10 +26,7 @@ function stake(uint256 amount) public {
     // Transfer staking tokens to this contract for staking
     stakingToken.transferFrom(msg.sender, address(this), amount);
 
-    // Update staking balance
-    _balances[msg.sender] += amount;
-
-    emit Staked(msg.sender, amount);
+    
 }
 This function will transfer the staking tokens from the sender to the contract and update the sender's staking balance. A 'Staked' event will be emitted on successful staking.
 
