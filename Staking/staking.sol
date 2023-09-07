@@ -2,6 +2,7 @@
 pragma solidity ^0.8.4;
 
 contract StakingContract {
+
     // The token being staked
     IERC20 public stakingToken;
 
