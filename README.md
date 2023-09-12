@@ -1,6 +1,4 @@
 
-
-
 StakingContract
 StakingContract is a simple contract written in Solidity for staking ERC20 tokens.
 
