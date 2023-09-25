@@ -10,6 +10,7 @@ How to Use
 Setup
 Initialize the contract with the address of the ERC20 token to be staked.
 
+
 solidity
 Copy code
 constructor(IERC20 _stakingToken) {
