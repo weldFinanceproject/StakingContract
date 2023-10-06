@@ -16,6 +16,7 @@ Copy code
 constructor(IERC20 _stakingToken) {
     stakingToken = _stakingToken;
 }
+
 Staking Tokens
 To stake tokens, call the stake function with the amount to be staked.
 
